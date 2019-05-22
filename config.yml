@@ -2,7 +2,7 @@
 
 title: Transfer your SVN skill to Git # a name for your Learning Lab course
 tagline: If you know how to use SVN, take this course. # a short description for your Learning Lab course, displayed on the course catalog
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+description: This is a long description of the course. # a longer description for your Learning Lab course, displayed on the course's landing page
 
 # Repository setup
 # The following section template information for the repository
@@ -39,6 +39,7 @@ steps:
         else:
           - type: respond
             with: no-branch-created.md
+            issue: Welcome to SNV to Git
             data:
               creation: "%payload.ref_type%"
       - type: respond
